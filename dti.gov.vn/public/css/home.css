@@ -1,0 +1,831 @@
+body{
+    margin: 0px auto;
+}
+
+a{
+    text-decoration: none;
+}
+
+.text_white{
+    color: #d2dde8;
+}
+/* =================wp_header================ */
+
+.wp_header{
+    width: 1170px;
+    margin: 0px auto;
+}
+/* =================header====================== */
+#header{
+    height: 102.4px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 15px;
+}
+
+#header .background{
+    width: 500px;
+}
+
+#wp_header h3{
+    margin: 0px;
+    margin-bottom: 10px;
+    color: black;
+    padding-left: 10px;
+}
+
+#wp_header h3.color{
+    color: #0062c6;
+}
+
+#header #logo{
+    width: 855px;
+    height: 53.4px;
+    display: flex;
+    margin: 25px 0px;
+    padding: 0px 4.6px;
+}
+
+/* ====================main_menu============== */
+
+#main_menu{
+    background-color: #013c6f;
+}
+
+#main_menu ul{
+    padding-left: 0px;
+    display: flex;
+    width: 1170px;
+    height: 58px;
+    margin: 0px auto;
+}
+
+#main_menu ul li{
+    padding: 20px;
+    text-align: center;
+}
+
+#main_menu ul li:hover{
+    background-color: red;
+}
+
+/* ==========================wp_content======================= */
+#wp_content{
+    margin-top: 25px;
+    min-height: 486.85px;
+}
+/* ==============banner=============== */
+#banner img{
+    width: 100%;
+}
+
+#banner{
+    position: relative;
+    z-index: 1;
+}
+
+#banner .owl-dots{
+    width: 200px;
+    margin: 0px;
+    position: absolute;
+    bottom: 35px;
+    right: 350px;
+}
+
+#banner span{
+    width: 20px;
+    height: 20px;
+}
+
+.owl-theme .owl-dots .owl-dot span{
+    background-color:#5e9cf3;
+}
+
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot span:hover {
+    background: white;
+}
+/* =================data================ */
+#wp_content #data{
+    width: 1170px;
+    margin: 0px auto;
+    margin-bottom: 40px;
+}
+
+#statistical{
+    margin-bottom: 20px;
+}
+
+#data ul{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 15px;
+}
+
+#data ul li {
+    width: 200px;
+    height: 243px;
+    text-align: center;
+    padding: 0px 14px;
+}
+
+#data ul li .chart{
+    width: 90px;
+    height: 90px;
+    margin: 0px auto;
+}
+
+#data ul li h1{
+    margin: 0px;
+    padding: 25px 0px;
+    color: white;
+    background-color: red;
+    border-radius: 20px;
+}
+
+#data ul .title{
+    text-transform: uppercase;
+}
+
+#data ul li .chart h3{
+    margin: 0px;
+}
+
+#data ul li .chart h2{
+    margin-bottom: 0px;
+}
+
+.chart div{
+    position: relative;
+}
+
+.chart div img{
+    position: absolute;
+    bottom: -23px;
+    right: 0px;
+}
+
+.title h3{
+    margin-top: 0px;
+}
+
+#chart_1 .title{
+    margin-top: 20px;
+    color: #e62601;
+}
+
+#chart_2{
+    color: #459fd1;
+}
+#chart_3{
+    color: #07a398;
+}
+#chart_4{
+    color: #90c221;
+}
+#chart_5{
+    color: #fba200;
+}
+
+#document{
+    width: 1170px;
+    margin: 0px auto;
+}
+
+#document a{
+    display: block;
+    width: 100%;
+}
+/* ========================Rank_info==================== */
+#wp_rank_info{
+    height: 1573.99px;
+    background-size: cover;
+    padding:40px 0px;
+}
+
+#wp_rank_info .wp_rank_info{
+    width: 1170px;
+    height: 1493.99px;
+    margin: 0px auto;
+}
+
+#wp_rank_info .wp_rank_info p{
+    font-size: 19px;
+    width: 780px;
+}
+
+#wp_rank_info #rank_info div{
+    text-align: center;
+    margin-top: 30px;
+}
+
+#wp_rank_info #rank_info div a{
+    margin: 20px;
+    padding: 15px;
+    font-weight: bold;
+    border-radius: 10px;
+    border: 1px solid white;
+}
+
+#wp_rank_info #rank_info div a:hover{
+    color: #71950f;
+    border: 1px solid #71950f;
+}
+
+#rank_info h1{
+    font-size: 40px;
+}
+
+#wp_rank_info .wp_rank_info #rank_container{
+    height: 1272.85px;
+    background-color: white;
+    margin-top: 40px;
+}
+
+#rank_container{
+    padding: 0px 15px;
+}
+
+#rank_container h3{
+    padding-top: 30px;
+    text-align: center;
+}
+
+#rank_container .vietnam{
+    width: 50%;
+}
+
+#rank_container .vietnam img{
+    width: 100%;
+}
+
+#rank_container .table{
+    width: 40%;
+}
+
+#rank_container div{
+    display: flex;
+    justify-content: space-around;
+}
+
+table{
+    height: 1000px;
+    border: 2px solid #ddd;
+    background-color: #e9f0fa;
+    text-align: center;
+}
+
+table tbody{
+    width: 100%;
+    height: 950px;
+    overflow-y: scroll;
+    display: block;
+}
+
+thead{
+    background-color: #cee3f8;
+    padding-right: 15px;
+}
+
+tbody tr{border-bottom: 1px solid #a4c2e0 ;}
+
+tr{
+    display: flex;
+    margin: 0px;
+    justify-content: space-between;
+}
+
+td{
+    padding-left: 15px;
+}
+
+.a{
+    width: 19%;
+}
+
+.b{
+    width: 35%;
+    padding-top: 10px;
+}
+
+#rank_container ul{
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 70px;
+}
+
+#rank_container ul li{
+    margin-left: 30px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+#rank_container ul .a1::before{
+    content: "➀";
+}
+
+#rank_container ul .a2::before{
+    content: "➁";
+}
+
+#rank_container ul .a3::before{
+    content: "➂";
+}
+
+#rank_container ul .a4::before{
+    content: "➃";
+}
+/* ================target================= */
+#target{
+    height: 724.32px;
+    padding-top: 30px;
+}
+
+#target .target{
+    width: 1170px;
+    height: 608.4px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+#target h1{
+    padding-left: 30px;
+    width: 1170px;
+    margin: 0px auto;
+    margin-bottom: 30px;
+}
+
+#target .develop{
+    width: 360px;
+    height: 608.4px;
+    padding: 0px 15px;
+}
+
+#target .develop1{
+    width: 330px;
+    height: 578.4px;
+    padding: 15px;
+    box-shadow: 1px 1px 8px black;
+}
+
+#target .government ul{
+    padding: 0px;
+    margin: 0px;
+    align-items: space-around;
+}
+
+#target .government ul li{
+    display: flex;
+}
+
+#target .pic img{
+    height: 45px;
+    width: 50px;
+    margin-bottom: 20px;
+}
+
+#target .pic1{
+    margin-bottom: 30px;
+}
+
+#target .a{
+    width: 320px;
+    height: 163.63px;
+    margin: 0px auto;
+}
+
+#target .pic p{
+    height: 45px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    padding-left: 15px;
+}
+
+#target .society ul{
+    padding: 0px;
+    margin: 0px;
+}
+
+#target .society ul li{
+    height: 85px;
+    display: flex;
+}
+
+#target .society .a{
+    width: 320px;
+    height: 163.63px;
+    margin: 0px auto;
+    margin-bottom: 20px;
+}
+
+.economy img{
+    width: 255px;
+    height: 198.87px;
+    padding:  19px 30px;
+}
+
+.economy .title{
+    display: flex;
+    padding: 0px;
+}
+
+.economy .title span{
+    width: 10px;
+    height: 10px;
+    background-color: blue;
+    margin-top: 30px;
+}
+
+.economy .title p{
+    padding: 10px;
+    margin-bottom: 0px;
+}
+
+.economy{
+    position: relative;
+}
+
+.economy #viet_nam{
+    width: 360px;
+    height: 218px;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+
+.economy #viet_nam h5{
+    margin: 0px;
+    text-align: center;
+    padding: 5.4px 0px;
+    background-color: #3b92c9;
+}
+
+.economy #viet_nam .density{
+    display: flex;
+}
+
+.economy #viet_nam .density div{
+    width: 50%;
+    height: 52.4px;
+    padding: 15px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.economy #viet_nam .density .a{
+    background-color: #d8e9ec;
+}
+
+.economy #viet_nam .density .a1{
+    background-color: #a9d9e7;
+}
+
+.economy #viet_nam .productivity{
+    display: flex;
+}
+
+.economy #viet_nam .productivity div{
+    width: 120px;
+    height: 76.8px;
+    font-weight: bold;
+    font-size: 14px;
+    text-align: center;
+    padding: 16px;
+}
+
+.economy #viet_nam .productivity .b{
+    background-color: #a9d9e7;
+}
+
+.economy #viet_nam .productivity .b1{
+    background-color: #bbe4e9;
+}
+
+.economy #viet_nam .productivity .b2{
+    background-color: #d8e9ec;
+}
+
+.economy #viet_nam .productivity h3{
+    margin-top: 0px;
+    color: #447ec1;
+}
+/* =======================subject=============== */
+#subject{
+    padding: 32.5px 0px;
+    height: 144px;
+    background-color: #eff5fd;
+}
+
+#subject .container{
+    width: 1170px;
+    margin: 0px auto;
+    padding: 0px 15px;
+}
+
+#subject .container ul{
+    margin: 0px;
+    padding-left: 0px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+#subject .container ul li{
+    width: 167.14px;
+}
+
+/* ==================story================= */
+#story{
+    padding: 25px 0px;
+    height: 985.15px;
+    background-color: #eff5fd;
+}
+
+#story .container{
+    width: 1140px;
+    padding: 0px 15px;
+    margin: 0px auto;
+}
+
+#story .container .title{
+    font-size: 40px;
+    margin-top: 0px;
+    text-align: center;
+    color: #333333;
+}
+
+#story .container .title_gov{
+    font-size: 40px;
+    text-align: center;
+    color: #07a398;
+    margin: 30px;
+}
+
+#story .container .selection{
+    width: 585px;
+    height: 9px;
+    margin: 0px auto;
+}
+
+#story .container .selection ul{
+    height: 2px;
+    padding-left: 0px;
+    display: flex;
+    background: #3333;
+    justify-content: space-around;
+    position: relative;
+}
+
+#story .container li div{
+    width: 10px;
+    height: 10px;
+    background-color: gray;
+    border-radius: 10px;
+    position: absolute;
+    top: -4px;
+}
+
+#story .container li a{
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+    display: block;
+}
+
+#story #images img{
+    width: 100%;
+}
+
+#story #images .click_2, #story #images .click_3, #story #images .click_4{
+    display: none;
+}
+
+/* ===================Handbook============= */
+
+#handbook{
+    height: 452.6px;
+    padding: 30px 0px;
+}
+
+#handbook a{
+    color: #338dcc;
+}
+
+#handbook a h1{
+    font-weight: normal;
+}
+
+#handbook .wp_handbook{
+    width: 1170px;
+    margin: 0px auto;
+    display: flex;
+}
+
+#handbook .wp_handbook div{
+    width: 50%;
+}
+
+#handbook .wp_handbook .handbook{
+    padding-right: 50px;
+}
+
+#handbook .wp_handbook .handbook h3{
+    font-weight: normal;
+    font-size: 30px;
+}
+
+#handbook .wp_handbook .handbook ul{
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+    justify-content: space-between;
+    justify-items: space-between;
+    flex-wrap: wrap;
+}
+
+#handbook .wp_handbook .handbook ul li{
+    width: 252.5px;
+    height: 164.2px;
+    box-shadow: 1px 1px 8px black;
+    text-align: center;
+}
+
+#handbook .wp_handbook .handbook ul .margin_bt{
+    margin-bottom: 23px;
+}
+
+
+#handbook .wp_handbook .handbook img{
+    display: block;
+    padding: 15px 40px;
+}
+
+#handbook .wp_handbook .handbook ul div{
+    width: 70%;
+    margin: 0px auto;
+}
+
+#handbook .wp_handbook .feedback{
+    padding-left: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#handbook .feedback .feedback1{
+    width: 535px;
+    height: 122px;
+    background-color: #e2f5f3;
+    display: flex;
+}
+
+#handbook .feedback .feedback1 div{
+    width: 100%;
+    display: flex;
+    padding: 10px 15px;
+}
+
+#handbook .feedback .feedback1 form{
+    flex-direction: column;
+    position: relative;
+    height: 70px;
+    padding: 16px 0px;
+}
+
+#handbook .feedback .feedback1 form input[type="email"]{
+    width: 260px;
+    height: 34px;
+}
+
+#handbook .feedback .feedback1 form input[type="submit"]{
+    width: 101px;
+    height: 40px;
+    background-color:#0062c6;
+    border: 0px solid;
+    position: absolute;
+    color: white;
+    font-size: 20px;
+}
+
+
+#handbook .feedback .feedback1 img{
+    width: 102px;
+    height: 102px;
+    margin: 0px;
+    margin-right: 15px;
+}
+
+#handbook .feedback .feedback1 h1{
+    padding-top: 10px;
+}
+
+
+#handbook .wp_handbook a:hover{
+    color: green;
+}
+
+/* =======================slide_consult================= */
+#slide_consult{
+    height: 182.7px;
+    padding: 25px 0px;
+    background-color: #eff5fd;
+}
+
+#slide_consult .owl-carousel{
+    width: 1170px;
+    padding: 0px 15px;
+    margin: 0px auto;
+    text-align: center;
+}
+
+#slide_consult .owl-carousel .page{
+    width: 255px;
+    margin-right: 100px;
+}
+
+#slide_consult .owl-carousel .page div{
+    height: 120px;
+    background-color: white;
+    margin-bottom: 17px;
+}
+
+#slide_consult .owl-carousel .computerization img{
+    width: 156px;
+    height: 43px;
+    padding: 38.5px 0px;
+    margin-left: 47px;
+}
+
+#slide_consult .owl-carousel div p{
+    margin: 0px;
+}
+
+#slide_consult .electronic_information img{
+    width: 85px;
+    height: 87px;
+    padding: 16.5px 0px;
+    margin-left: 85px;
+}
+
+#slide_consult .Handbook img{
+    width: 143px;
+    height: 118px;
+    margin-left: 55px;
+}
+
+/* ====================wp_footer================ */
+
+#wp_footer{
+    padding: 15px 0px;
+    background-color: #013c6f;
+    position: relative;
+}
+
+#wp_footer .footer{
+    width: 1170px;
+    height:136.73px;
+    margin: 0px auto;
+    text-align: center;
+}
+
+#wp_footer .footer h3{
+    margin: 0px;
+    color: white;
+}
+
+#wp_footer .footer a:hover{
+    color: #71950f;
+}
+
+#wp_footer .footer p{
+    color: white;
+    margin: 5px;
+    margin-bottom: 0px;
+}
+
+#wp_footer .footer img{
+    width: 150px;
+    height: 68.18px;
+}
+
+#wp_footer .footer .contact{
+    width: 945px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.alert{
+    width: 350px;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+    display: none;
+    color: white;
+    position:fixed;
+    z-index: 2;
+}
